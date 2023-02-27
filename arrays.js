@@ -11,7 +11,7 @@ stations = ["Dundee", "Edinburgh", "North Berwick", "Newcastle", "York", "Leeds"
 
 stations.push("Kings Cross");
 
-// console.log(stations);
+console.log(stations);
 
 /**
  * Q2.
@@ -19,7 +19,8 @@ stations.push("Kings Cross");
  */
 
 stations.shift();
-// console.log(stations);
+
+console.log(stations);
 
 /**
  * Q3.
@@ -28,7 +29,7 @@ stations.shift();
 
 stationCount = stations.length;
 
-// console.log("There are " + stationCount + " stations.");
+console.log("There are " + stationCount + " stations.");
 
 /**
  * Q4.
@@ -37,7 +38,7 @@ stationCount = stations.length;
 
 thirdStation = stations[2];
 
-// console.log("The third station is " + thirdStation);
+console.log("The third station is " + thirdStation);
 
 /**
  * Q5.
@@ -45,7 +46,8 @@ thirdStation = stations[2];
  */
 
 stations.splice(1,1, "Berwick-upon-Tweed");
-// console.log(stations);
+
+console.log(stations);
 
 /**
  * Q6.
@@ -53,7 +55,8 @@ stations.splice(1,1, "Berwick-upon-Tweed");
  */
 
 stations.splice(4,1);
-// console.log(stations);
+
+console.log(stations);
 
 /**
  * Q7.
@@ -61,7 +64,8 @@ stations.splice(4,1);
  */
 
 stations.splice(3,0, "Darlington");
-// console.log(stations);
+
+console.log(stations);
 
 
 
@@ -70,10 +74,11 @@ stations.splice(3,0, "Darlington");
  * Is Durham one of the stops?
  */
 
-// stations.includes("Durham", 0);
+stations.includes("Durham", 0);
+
 stoppingAtDurham = stations.includes("Durham", 0);
 
-// console.log(stoppingAtDurham);
+console.log(stoppingAtDurham);
 
 
 /**
