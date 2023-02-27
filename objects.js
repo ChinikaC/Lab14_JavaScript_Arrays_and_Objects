@@ -27,7 +27,7 @@ tortoise = {
  * Q1. What's the name of the dog?
  */
 
-dogName = null;
+dogName = console.log(dog.name);
 
 // console.log("The dog's name is " + dogName);
 
