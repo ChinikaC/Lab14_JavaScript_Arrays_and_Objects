@@ -43,9 +43,13 @@ console.log("The cat is a " + catBreed);
  * Q3. It's the tortoise's birthday! Add one to her current age.
  */
 
-tortoiseAge = tortoise.age + 1;
+// My solution:
+// tortoiseAge = tortoise.age + 1;
+// console.log(tortoiseAge);
 
-console.log(tortoiseAge);
+//Correct solution:
+tortoise.age +=1;
+console.log(tortoise);
 
 /**
  * Q4. How many different colours is Poppy?
@@ -80,7 +84,7 @@ console.log(tortoise);
  * Q7. What's the combined age of all the pets?
  */
 
-totalPetAge = [dog.age + cat.age + tortoise.age + parrot.age];
+totalPetAge = dog.age + cat.age + tortoise.age + parrot.age;
 
 console.log("The total age of the pets is " + totalPetAge);
 

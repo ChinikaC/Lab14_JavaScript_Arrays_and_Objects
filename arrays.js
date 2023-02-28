@@ -45,9 +45,16 @@ console.log("The third station is " + thirdStation);
  * Someone put the wrong Berwick on the timetable! Update "North Berwick" to "Berwick-upon-Tweed".
  */
 
-stations.splice(1,1, "Berwick-upon-Tweed");
+// My solution:
+// stations.splice(1,1, "Berwick-upon-Tweed");
+// console.log(stations);
 
-console.log(stations);
+// Correct solution:
+// First find the index of "North Berwick"
+const indexOfNorthBerwick = stations.indexOf("North Berwick");
+// Check the index
+console.log(indexOfNorthBerwick);
+stations[indexOfNorthBerwick] = "Berwick-upon-Tweed";
 
 /**
  * Q6.
@@ -71,8 +78,6 @@ console.log(stations);
  * Q8.
  * Is Durham one of the stops?
  */
-
-stations.includes("Durham", 0);
 
 stoppingAtDurham = stations.includes("Durham", 0);
 
