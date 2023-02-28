@@ -49,7 +49,7 @@ console.log("The third station is " + thirdStation);
 // stations.splice(1,1, "Berwick-upon-Tweed");
 // console.log(stations);
 
-// Correct solution:
+// Correct solution - need to find the index first:
 // First find the index of "North Berwick"
 const indexOfNorthBerwick = stations.indexOf("North Berwick");
 // Check the index

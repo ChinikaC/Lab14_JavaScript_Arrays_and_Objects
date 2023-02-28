@@ -47,7 +47,7 @@ console.log("The cat is a " + catBreed);
 // tortoiseAge = tortoise.age + 1;
 // console.log(tortoiseAge);
 
-//Correct solution:
+//Correct solution - this stores the age in the object permanently:
 tortoise.age +=1;
 console.log(tortoise);
 
